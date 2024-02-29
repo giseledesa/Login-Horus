@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  background-image: url('../assets/locke1.jpg');
+  background-position:center;
+  background-size: cover;
+}
+
+.container-principal {
+display: flex;
+height: 100vh;
+}
+
+.container-form {
+display: block;
+}
+
+.luminus {
+width: 20vh;
+max-height: 20vh;
+position: fixed;
+top: 8vh;
+left: 14vh;
+}
+
+
+.descricao-sistema {
+position: fixed;
+top: 61vh;
+left: 14vh;
+}
+
+.descricao-sistema img {
+width: 6.2vh;
+height: 6.2vh;
+}
+
+.descricao-sistema p {
+color: #C5507C;
+font-size: 30px;
+font-weight: bold;
+background-color: #ffffff;
+display: block;
+padding: 0.5vh;
+margin: 0.5vh;
+}
+
+.login {
+background-color: #ffffff;
+border-radius: 10px;
+position: absolute;
+right:  32vh;
+top: 22vh;
+width: 56vh;
+height: 59vh;
+}
+
+h1{
+font-size: 30px;
+text-align: center;
+}
+
+.login form { 
+padding: 5vh;
+font-size: 1.6vh;
+display:flex;
+flex-direction: column;
+}
+
+.login input { 
+margin-top: 1vh;
+border-radius: .4vh;
+width: 100%;
+height: 4vh;
+margin-top: 1vh;
+margin-bottom: 1vh;
+background-color: #E9E9E9;
+border: none;
+}
+
+.entrada-button {
+background-color: blue;
+color: #ffffff;
+border: none;
+border-radius: 1vh;
+margin-top: 1vh;
+padding: 1vh 2vh;
+height: 4vh;
+position: flex;
+width: auto;
+cursor: pointer;
+}
+
+.login-facial {
+align-items: center;
+display: flex;
+justify-content: center;
+margin: 2vh 0;
+padding: 1vh;
+}
+
+.line {
+background: gray;
+flex-grow: 1;
+height: .2vh;
+}
+
+
+.reconhecimento-facial {
+background: none !important;
+border: 1px solid #333;
+border-radius: 5px;
+display: inline-block;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+padding: 2vh 1vh;
+}
+
+.camera {
+width: 3vh;
+height: auto;
+}

@@ -1,0 +1,10 @@
+.pages-home {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3vh;
+  background-image: url('../../assets/locke1.jpg');
+  background-position:center;
+  background-size: cover;
+}
